@@ -1,0 +1,58 @@
+/* Desktop Settings */
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+  background-color: white;
+}
+
+.site-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url("../images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 31rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 1rem;
+  background-color: cadetblue;
+}
+
+header img {
+  height: 1.5rem;
+  padding: 0 1rem 0 2rem;
+}
+
+.logo {
+  flex-grow: 1;
+  color: white;
+  font-size: 1rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding: 1rem 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Tablet Settings */
+
+
+
+/* Mobile Settings */
