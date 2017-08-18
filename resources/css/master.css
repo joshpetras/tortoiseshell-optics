@@ -73,7 +73,6 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 8rem;
   margin-top: 3rem;
 }
 
@@ -87,10 +86,6 @@ nav a {
   margin: 0 3rem;
 }
 
-.service-image {
-  display: block;
-}
-
 .service-image img {
   max-width: 5rem;
   height: auto;
@@ -102,6 +97,42 @@ nav a {
 
 .service p {
   text-align: center;
+}
+
+.information {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.info-item {
+  width: 35%;
+  margin: 0 2.5%;
+}
+
+.info-item h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+}
+
+.info-item p {
+  margin-top: 1rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  background-color: azure;
+}
+
+.footer-logo img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
 }
 
 /* Tablet Settings */
