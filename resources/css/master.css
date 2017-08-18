@@ -51,6 +51,24 @@ nav a {
   text-decoration: none;
 }
 
+.tagline {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin-top: 11rem;
+}
+
+.tagline h1 {
+  position: relative;
+  right: -2rem;
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+}
+
 /* Tablet Settings */
 
 
