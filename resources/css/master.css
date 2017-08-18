@@ -69,6 +69,41 @@ nav a {
   padding: 1.5rem 5rem;
 }
 
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  margin-top: 3rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  width: 5rem;
+  margin: 0 3rem;
+}
+
+.service-image {
+  display: block;
+}
+
+.service-image img {
+  max-width: 5rem;
+  height: auto;
+}
+
+.service-image.paper img {
+  max-width: 3.5rem;
+}
+
+.service p {
+  text-align: center;
+}
+
 /* Tablet Settings */
 
 
